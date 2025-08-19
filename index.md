@@ -7,3 +7,12 @@ title: "홈"
 
 최신 학습 내용을 아래에서 확인하세요.  
 카테고리별로 정리된 글을 통해 팀원들의 지식을 함께 나눠요.
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%Y-%m-%d" }}
+    </li>
+  {% endfor %}
+</ul>
+
