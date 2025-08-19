@@ -1,28 +1,34 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
   margin: 0;
   padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-.container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-h1 {
+.site-header {
+  background-color: #007acc;
+  color: white;
+  padding: 2rem;
   text-align: center;
-  color: #444;
-  margin-bottom: 40px;
+}
+
+.site-description {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
+
+.site-main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 h2 {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-  margin-top: 40px;
-  color: #222;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
 }
 
 .post-list {
@@ -31,33 +37,34 @@ h2 {
 }
 
 .post-list li {
-  margin: 8px 0;
-  padding: 6px 10px;
-  background-color: #fff;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  transition: background-color 0.3s;
-}
-
-.post-list li:hover {
-  background-color: #f0f0f0;
+  margin: 0.5rem 0;
 }
 
 .post-list a {
   text-decoration: none;
   color: #007acc;
-  font-weight: bold;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
 }
 
 .date {
-  float: right;
-  color: #888;
-  font-size: 0.9em;
+  font-size: 0.9rem;
+  color: #666;
+  margin-left: 0.5rem;
 }
 
 details summary {
   cursor: pointer;
   font-weight: bold;
-  margin-top: 10px;
-  color: #555;
+  margin-top: 1rem;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  margin-top: 3rem;
+  font-size: 0.9rem;
 }
