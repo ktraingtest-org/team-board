@@ -1,18 +1,18 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <title>4조 학습공유 게시판</title>
-  <link rel="stylesheet" href="https://github.com/ktraingtest-org/team-board/assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>✨ {{ site.title }}</h1>
+  <header class="site-header">
+    <h1>📘 {{ site.title }}</h1>
+    <p class="site-description">{{ site.description }}</p>
+  </header>
 
+  <main class="site-main">
     <!-- 최신 글 -->
     <section>
       <h2>🆕 최신 글</h2>
@@ -59,9 +59,12 @@ layout: default
         </details>
       {% endfor %}
     </section>
-  </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© {{ site.time | date: "%Y" }} 4조 학습공유 게시판</p>
+  </footer>
 </body>
-</html>
 </html>
 
 
