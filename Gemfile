@@ -3,4 +3,5 @@ gem "jekyll", "~> 4.4.1"
 gem "jekyll-feed"
 gem "jekyll-remote-theme"
 gem "jekyll-paginate"
+gem "jekyll-seo-tag"
 
