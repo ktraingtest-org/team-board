@@ -2,7 +2,7 @@ title: "팀 학습 공유 블로그"
 description: "우리 팀의 지식과 아이디어를 함께 나누는 공간"
 baseurl: "/team-board" # Organization repo일 경우 꼭 필요
 url: "https://ktraingtest-org.github.io"
-remote_theme: chesterhow/tale
+remote_theme: euijongjoo/monos
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
