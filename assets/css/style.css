@@ -13,6 +13,15 @@ body {
   text-align: center;
 }
 
+.site-title {
+  color: white;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
+
 .site-description {
   margin-top: 0.5rem;
   font-size: 1.1rem;
@@ -23,6 +32,23 @@ body {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
+}
+
+.site-main article {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.site-main h1, .site-main h2, .site-main h3 {
+  color: #007acc;
+}
+
+.site-main p {
+  line-height: 1.6;
+  margin: 1rem 0;
 }
 
 h2 {
